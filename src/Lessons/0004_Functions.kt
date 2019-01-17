@@ -1,4 +1,3 @@
-package com.readlearnclimb.kotlin
 
 fun main(args: Array<String>) {
 
@@ -16,13 +15,13 @@ fun main(args: Array<String>) {
     //println
 
     var newNumber = addTwoNumbers(5, 7)
-    //println(newNumber)
+    println(newNumber)
 
     fun dogInfo(name: String, age: Int): String {       // note the return type (String)
         return "My dog's name is $name and he is $age years old"
     }
 
     val sentence = dogInfo("Coder", 30)
-    //println(sentence)
+    println(sentence)
 
 }

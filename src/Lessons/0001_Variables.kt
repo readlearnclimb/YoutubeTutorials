@@ -1,4 +1,3 @@
-package com.readlearnclimb.kotlin // do not copy & paste this line --> you already have this
 
 fun main(args:Array<String>) {
 
