@@ -2,19 +2,17 @@ package Lessons
 
 fun main(args: Array<String>) {
 
-    var myAge: Int = 15
+    val myAge = 17
+    val smokingAge = 18
+    val drinkingAge = 21
 
-    var smokingAge: Int = 18
-    var drinkingAge: Int = 21
-
-    if (myAge >= smokingAge) {    // age > smokingAge returns a Boolean value (true or false, yes or no)
+    if (myAge >= smokingAge && myAge < drinkingAge) {
         println("I can buy cigarettes, but not alcohol in the US.")
     } else if (myAge >= drinkingAge) {
         println("I can buy cigarettes AND alcohol in the US.")
     } else {
-        println("I cannot buy.")
+        println("I cannot buy either.")
     }
-
 
     fun canYouBuyCigarettes(age: Int) {
         if (age >= 18) {
@@ -24,7 +22,9 @@ fun main(args: Array<String>) {
         }
     }
 
-    //canYouBuyCigarettes(17)
+    canYouBuyCigarettes(19)
+
+
 }
 
 
